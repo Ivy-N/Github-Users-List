@@ -1,5 +1,5 @@
-import {Component, OnInIt } from "@angular/core";
-import {IUser} from "src/app/interfaces/data.interface";
+import {Component, OnInit } from "@angular/core";
+import {IGituser} from "src/app/interfaces/data.interface";
 import {DataService} from "src/app/services/data.service";
 
 @Component({

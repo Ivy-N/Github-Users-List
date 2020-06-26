@@ -13,7 +13,7 @@ export class DataService {
   constructor(private _http: HttpClient) {} // dependency injection — goes in the constructor
 
   // observables — continous stream of data that you monitor as it comes
-  getUsers(): Observable<IGituser[]> {
+  getGitusers(): Observable<IGituser[]> {
     return this._http.get<IGituser[]>(this._url);
   }
 }
