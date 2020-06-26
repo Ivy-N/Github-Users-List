@@ -1,0 +1,12 @@
+<div>
+    <div *ngIf="gitusers && gitusers.length">
+      <ul *ngFor="let gituser of gitusers">
+        <li>
+          {{ gituser.name }} — <span>{{ gituser.email }}</span>
+        </li>
+      </ul>
+    </div>
+    <div *ngIf="users.length === 0">
+      Please wait...
+    </div>
+  </div>
