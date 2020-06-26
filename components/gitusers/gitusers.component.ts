@@ -1,3 +1,7 @@
+import {Component, OnInIt } from "@angular/core";
+import {IUser} from "src/app/interfaces/data.interface";
+import {DataService} from "src/app/services/data.service";
+
 @Component({
     selector: "app-gitusers",
     templateUrl: "./gitusers.component.html",
