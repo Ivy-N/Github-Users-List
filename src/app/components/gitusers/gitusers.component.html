@@ -2,7 +2,7 @@
     <div *ngIf="gitusers && gitusers.length">
       <ul *ngFor="let gituser of gitusers">
         <li>
-          {{ gituser.name }} — <span>{{ gituser.email }}</span>
+          {{ gituser.login }} — <span>{{ gituser.repos_url }}</span>
         </li>
       </ul>
     </div>

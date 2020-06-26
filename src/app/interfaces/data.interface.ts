@@ -1,4 +1,4 @@
 export interface IGituser {
-    name: string;
-    email: string;
+    login: string;
+    repos_url: string;
   }

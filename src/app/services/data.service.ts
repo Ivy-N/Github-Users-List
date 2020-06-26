@@ -8,7 +8,7 @@ import { IGituser } from "../interfaces/data.interface";
   providedIn: "root",
 })
 export class DataService {
-  private _url: string = "https://api.github.com";
+  private _url: string = "https://api.github.com/users?since=135";
 
   constructor(private _http: HttpClient) {} // dependency injection — goes in the constructor
 
