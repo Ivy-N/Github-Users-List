@@ -3,7 +3,6 @@ import { NgModule } from "@angular/core";
 
 import { AppComponent } from "./app.component";
 import { GitusersModule } from "./components/gitusers/gitusers.module";
-import { GitusersFormModule } from "./components/gitusers-form/gitusers-form.module";
 import { ServicesModule } from "./services/services.module";
 import { AppRoutingModule } from "./app.routing";
 import { FormsModule } from '@angular/forms';
