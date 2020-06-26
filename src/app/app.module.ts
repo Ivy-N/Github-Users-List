@@ -5,10 +5,11 @@ import { AppComponent } from "./app.component";
 import { GitusersModule } from "./components/gitusers/gitusers.module";
 import { ServicesModule } from "./services/services.module";
 import { AppRoutingModule } from "./app.routing";
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, GitusersModule, ServicesModule, AppRoutingModule],
+  imports: [BrowserModule, GitusersModule, ServicesModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

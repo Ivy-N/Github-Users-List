@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <h2 class="text-center">Add a New Gituser</h2>
+    <hr>
+    <form (ngSubmit)='submitGituser()' #gituserForm='ngForm'>
+        <div class="form-group">
+  
+            <label for="quotephrase">Github Username</label>
+            <input type="text" class="form-control" id="login" [(ngModel)]="newGituser.login" name="login" #login='ngModel' required>
+            <div [hidden]="login.valid || login.pristine" class="alert alert-danger">
+              <p>Username is required</p>
+            </div>
+            </div>
+  
+        <button type="submit" class="btn btn-success">View Repositories</button>
+  
+    </form>
+  </div>
